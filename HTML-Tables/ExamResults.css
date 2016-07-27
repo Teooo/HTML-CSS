@@ -1,0 +1,16 @@
+body{
+    font-family: tahama;
+    font-size: 16px;
+}
+th,td{
+    padding: 5px;
+}
+table,th,td{
+    border: 1px solid  black;
+}
+td{
+    text-align: right;
+}
+th{
+    text-align: left;
+}

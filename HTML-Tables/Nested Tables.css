@@ -1,0 +1,10 @@
+body{
+    font-family: tohama;
+    font-size: 48px;
+}
+table,td{
+    border: solid 1px black;
+}
+td{
+    padding: 10px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Form.css">
+</head>
+<body>
+<div id="container">
+    <form method="get" action="#">
+        <fieldset>
+            <legend>Step 1: Your details</legend>
+            <div>
+                <label for="name">Name</label>
+                <input name="name" type="text" id="name" placeholder="First and last name">
+            </div>
+            <div>
+            <label for="email">Email</label>
+            <input name="name" type="email" id="email" placeholder="example@domain.com">
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input name="phone" type="text" id="phone" placeholder="eg. +447500000000">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Step 1: Delivery address</legend>
+            <div id="text-area">
+                <label for="address">Address</label>
+                <textarea name="address" id="address"></textarea>
+            </div>
+            <div>
+                <label for="postcode">Post code</label>
+                <input name="postcode" id="postcode">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <input name="country" id="country">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Step 1: Card details</legend>
+            <div>
+                <span id="top-aligned">Card type</span>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="radio" name="cart-type" value="VISA" id="vissa" class="radio"/>
+                        </td>
+                        <td id="visa">
+                            <label for="visa">Visa</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="cart-type" value="AMEX" id="amex" class="radio"/>
+                        </td>
+                        <td id="amx">
+                            <label for="amex">amEx</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="cart-type" value="MASTERCARD" id="MASTERCARD" class="radio"/>
+                        </td>
+                        <td id="MASTER">
+                            <label for="MASTERCARD">MASTERCARD</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <label for="card-number">Card Number</label>
+                <input id="card-number" type="text">
+            </div>
+            <div>
+                <label for="security-code">Security code</label>
+                <input id="security-code" type="text">
+            </div>
+            <div>
+                <label for="name-Card">Name on card</label>
+                <input id="name-Card" type="text">
+            </div>
+        </fieldset>
+        <input type="submit" value="BUY IT!" id="submit">
+    </form>
+</div>
+</body>
+</html>

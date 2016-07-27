@@ -1,0 +1,31 @@
+body{
+    background:no-repeat;
+    background: url("background.png");
+    color: #ffffff;
+}
+h1{
+    color: #ffd821;
+}
+p{
+    color:#bbbbbb;
+}
+div{
+    background: rgba(115, 118, 115, 0.54);
+    border:1px solid #ffffff;
+    padding:5px;
+    margin: 5px;
+    color: #f4ffb6;
+}
+span{
+    color: #ffd821;
+}
+ul{
+    list-style: none;
+
+}
+li:before{
+    list-style-type: square;
+    content: "■";
+    color:#ffd821;
+    margin-right:10px;
+}
